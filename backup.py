@@ -33,6 +33,7 @@ shutil.copytree(source,
                     '.*', 'bot-env', '__pycache__'
                 ))
 
+source = b2.parse_sync_folder(source_tmp, b2_api)
 destination = b2.parse_sync_folder(destination, b2_api)
 
 policies_manager = b2.ScanPoliciesManager(
