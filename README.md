@@ -1,11 +1,8 @@
-# Auto-Voice-Channels
+# fork from https://github.com/gregzaal/Auto-Voice-Channels/
 
 ### A Discord bot that automatically creates voice channels as they are needed.
 
-- [Public bot invite link](https://discordapp.com/api/oauth2/authorize?client_id=479393422705426432&permissions=286280784&scope=bot)
-- [Beta bot invite link](https://discordapp.com/api/oauth2/authorize?client_id=675405085752164372&permissions=286280784&scope=bot)
-- [Discord server](https://discord.gg/HT6GNhJ)
-- [Patreon](https://www.patreon.com/pixaal)
+- [Public bot invite link](https://discordapp.com/api/oauth2/authorize?client_id=996841292246036603&permissions=286280784&scope=bot)
 
 ## Requires:
 
@@ -23,8 +20,8 @@
 
 ### On Linux (Ubuntu/Debian):
 
-* Clone the repository: `git clone https://github.com/gregzaal/Auto-Voice-Channels.git`
-* Go to the directory: `cd Auto-Voice-Channels`
+* Clone the repository: `git clone https://github.com/ppug/auto-voice-channel.git`
+* Go to the directory: `cd Auto-Voice-Channel`
 * Install pip: `sudo apt-get -y install python3-pip`
 * Install venv: `pip3 install virtualenv`
 * Make venv: `python3 -m virtualenv bot-env`
@@ -51,26 +48,3 @@
 
 * Invite the bot to your own server, replacing `<YOUR BOT ID>` with... your bot ID: `https://discordapp.com/api/oauth2/authorize?client_id=<YOUR BOT ID>&permissions=286280784&scope=bot`
 * Start your bot: `python3 auto-voice-channels.py`
-
-### On Windows:
-
-While this bot will work just fine on windows for development, the most likely reason you've scrolled here is because you want to run your bot on your home computer.
-
-This is **not recommended** for two main reasons:
-
-1. Your internet connection is probably less stable than you think, which means high & inconsistent latency with frequent disconnects of your bot.
-2. Your bot would only be online while your computer is on, meaning no one could use it while you sleep - and if you're thinking about running your home computer 24/7, consider that you'll be spending **a lot** more on electricity than a simple hosted VPS or Raspberry Pi would cost you.
-
-Our recommended solution for "free" hosting is to use the free credit provided by many of the cloud platforms (e.g. Google Cloud). Once the credit expires after a few months, if you're still using your bot regularly you probably won't mind paying $3-5 per month for a tiny VPS.
-
-If you absolutely want to run this bot on windows (e.g. for development testing), simply follow the instructions for Linux above, and anywhere you need to use `apt-get`, just search up how to install that software on windows instead :)
-
-### With Docker:
-
-If you want to use Docker, here's an image: https://github.com/vinanrra/Auto-Voice-Channels-Docker
-
-## Help:
-
-For **all** issues and questions you have, first ask in our [Support Server](https://discord.gg/HT6GNhJ). 99% of questions have been asked before and already have a solution available. Read the FAQ, #status channel, and pinned messages.
-
-If you're self-hosting and have an actual code bug to report, also first check in the Support Server for a solution and see if anyone else has the same problem. If someone can confirm your bug in their own self-hosted bot, then you may [open an issue](https://github.com/gregzaal/Auto-Voice-Channels/issues).
